@@ -11,8 +11,18 @@
 
 function swap(x, y){
     // Task 1: Add code here
+    x = x + y;
+    y = x - y;
+    x = x - y;
+
+    if (typeof x !== 'number' || typeof y !== 'number') {
+        return -1
+}
+
+console.log("x:", x);
+console.log("y:", y);
+
 }
 
 // Task 2: Add code here
-
-module.exports = swap;
+swap (4, 0)

@@ -7,6 +7,6 @@
 */
 
 // Task 1: Add code here
-
+import { printSomething } from "./external.js";
 // Do not change the code below
-print();
+printSomething();
