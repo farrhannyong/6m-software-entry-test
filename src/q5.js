@@ -6,7 +6,7 @@
 */
 
 // Task 1: Add code here
-import { printSomething } from "./external.js";
+import print from './external.js';
+
 // Do not change the code below
-printSomething();
 document.querySelector("#test").innerHTML = print();
